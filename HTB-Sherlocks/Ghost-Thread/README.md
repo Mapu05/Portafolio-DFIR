@@ -93,6 +93,4 @@ El análisis confirma que el binario `inject.exe` es un *dropper/injector* sofis
 ![Resolución HackTheBox](images/htb_solved.png)
 
 ---
-*¿Te ha resultado útil este análisis? Conecta conmigo en [LinkedIn](www.linkedin.com/in/miguel-ángel-herrera-bastida-5554743b3
-
-) o revisa otros de mis write-ups en mi perfil de GitHub.*
+*¿Te ha resultado útil este análisis? Conecta conmigo en [LinkedIn](https://www.linkedin.com/in/miguel-ángel-herrera-bastida-5554743b3) o revisa otros de mis write-ups en mi perfil de GitHub.*
