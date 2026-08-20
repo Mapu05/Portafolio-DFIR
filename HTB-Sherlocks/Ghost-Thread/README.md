@@ -33,6 +33,8 @@ A continuación, se detalla la cadena de ataque reconstruida y la justificación
 * **Justificación Técnica:** Durante el análisis estático del binario, se inspeccionó la tabla de directorios del archivo PE. Se identificó una función registrada bajo el nombre `TlsCallback_0`. En la arquitectura de Windows, el cargador del sistema operativo (OS Loader) ejecuta estas rutinas **antes** de transferir el control al punto de entrada principal (`main`). El código ensamblador de este callback revela llamadas a APIs como `OpenProcess`, demostrando que el atacante incrustó la lógica de inyección en esta etapa temprana para evadir soluciones de seguridad.
 
 ![Evidencia Tarea 1 - TLS Callback](images/task1_tls.png)
+![Evidencia Tarea 1 - OpenProcess](images/task1_openProcess.png)
+
 
 ### Tarea 2: ¿Qué API de Win32 se utilizó para tomar instantáneas de todos los procesos e hilos en el sistema?
 * **Hallazgo:** `CreateToolhelp32Snapshot`
